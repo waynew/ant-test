@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="CoolProject" default="release" basedir=".">
+	<target name="release" description="Build for release">
+		<mkdir dir="release" />
+		<jar destfile="release/CoolProject.jar" basedir="bin">
+			<manifest>
+				<attribute name="Main-Class" value="Coolness" />
+			</manifest>
+		</jar>
+	</target>
+</project>
