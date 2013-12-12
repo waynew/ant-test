@@ -7,3 +7,7 @@
 
 *.swp
 *~
+
+.metadata/*
+*.classpath
+*.project

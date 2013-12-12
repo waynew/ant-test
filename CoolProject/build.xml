@@ -8,4 +8,15 @@
 			</manifest>
 		</jar>
 	</target>
+
+	<target name="compile">
+		<mkdir dir="bin" />
+		<javac srcdir="src" destdir="bin" includeantruntime="no" />
+	</target>
+
+	<target name="run">
+		<java classname="Coolness">
+		 <classpath path="bin" />
+		</java>
+	</target>
 </project>
